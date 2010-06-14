@@ -17,6 +17,7 @@ $registry->load_registry_from_db(
 );
 my $slice_adaptor = $registry->get_adaptor( 'Mouse', 'Core', 'Slice' );
 
+print "ok\n";
 unless (defined$slice_adaptor){
 print "Second way\n";
 
